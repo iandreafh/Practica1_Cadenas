@@ -14,3 +14,5 @@
 • Buscar texto de inicio en la cadena. Para ello, se solicitará introducir un texto para comprobar si la cadena comienza por el mismo.
 
 1.3- Una vez haya terminado la acción seleccionada del menú, volvemos a solicitar una nueva cadena.
+
+_Se ha añadido la opción de salir del programa eligiendo la opción 4 del menú._
