@@ -32,7 +32,7 @@ namespace PracticaCadenas
                 }
 
                 //Mientras no seleccione opcion valida, se repite
-                while (code == 0)
+                while (code == 0 && cadena != null)
                 {
                     //Imprimo menu
                     Console.Write("\n## MENÚ ##\n" +
@@ -45,7 +45,9 @@ namespace PracticaCadenas
                     //Leo opcion y hago parse a int
                     Console.Out.Flush();
                     String c = Console.ReadLine();
-                    code = Int32.Parse(c);
+                    //Controlo el caso de no escribir ninguna opcion, asumo que no introducira caracteres no numericos
+                    if(c.Length > 0)
+                        code = Int32.Parse(c); 
 
 
                     switch (code)
