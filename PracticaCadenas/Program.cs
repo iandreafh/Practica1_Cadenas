@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Practica1_Cadenas
+namespace PracticaCadenas
 {
     class Program
     {
